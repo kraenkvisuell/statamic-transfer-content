@@ -1,0 +1,19 @@
+{
+    "name": "kraenkvisuell/statamic-transfer-content",
+    "autoload": {
+        "psr-4": {
+            "Kraenkvisuell\\StatamicTransferContent\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Transfer Content",
+            "description": "Statamic Transfer Content addon"
+        },
+        "laravel": {
+            "providers": [
+                "Kraenkvisuell\\StatamicTransferContent\\ServiceProvider"
+            ]
+        }
+    }
+}

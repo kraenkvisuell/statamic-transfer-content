@@ -1,4 +1,4 @@
-# Statamic Transfer Content
+# Transfer Content
 
 > Statamic Transfer Content is a Statamic addon that does something pretty neat.
 
@@ -21,3 +21,7 @@ composer require kraenkvisuell/statamic-transfer-content
 ## How to Use
 
 Here's where you can explain how to use this wonderful addon.
+
+``` bash
+php artisan vendor:publish --tag="transfer-content"
+```
